@@ -1,6 +1,22 @@
-# MiFoBio 2025 - DiscoScope - Pilotage de servo moteur par weccam
-<p>This set of Notebooks provides a complete set of code to be able to train and leverage your own custom object detection model using the Tensorflow Object Detection API. This accompanies the Tensorflow Object Detection course on my <a href="https://www.youtube.com/c/nicholasrenotte">YouTube channel</a>. 
-<img src="https://i.imgur.com/H3tUyKM.png">
+# MiFoBio 2025 - DiscoScope - Pilotage de servo moteurs par weccam
+<p align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG93MmF5czhkc2d1OGsxeXpzaXE1MTd5MTlrZm5qbzZvM21razhhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9jwR2KCuAf8aIANOUr/giphy.gif" alt="animated />
+</p>
+<p align="left"> 
+  
+  Ces Notebooks vous fournissent les codes pour être capable d'entraîner et d'exploiter votre propre modèle de détection d'objets personnalisé en utilisant l'API Tensorflow
+  Pour réaliser cet atelier nous nous sommes beaucoup inspiré de deux tutoriaux et cours :
+
+  Un tutoiel de préparation des données : 
+  - <a href="https://www.youtube.com/c/nicholasrenotte">préparation des données</a>.
+
+Mais également de ce tutoriel et de sa page Google Colab :
+
+-<a href="https://www.youtube.com/watch?v=XZ7FYAMCc4M&t=0s">How to Train TensorFlow Lite Object Detection Models </a>
+  et son fichier google colab : 
+  <a href="https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb">Code Google Colab</a>.
+ 
+
 
 ## Steps
 <br />

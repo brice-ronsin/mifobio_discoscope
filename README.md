@@ -4,18 +4,49 @@
 </p>
 <p align="left"> 
   
-  Ces Notebooks vous fournissent les codes pour être capable d'entraîner et d'exploiter votre propre modèle de détection d'objets personnalisé en utilisant l'API Tensorflow
+  Ces Notebooks vous fournissent les codes pour être capable d'entraîner et d'exploiter votre propre modèle de détection d'objets personnalisé en utilisant l'API Tensorflow.
   Pour réaliser cet atelier nous nous sommes beaucoup inspiré de deux tutoriaux et cours :
 
   Un tutoiel de préparation des données : 
-  - <a href="https://www.youtube.com/c/nicholasrenotte">préparation des données</a>.
+  - <a href="https://www.youtube.com/watch?v=yqkISICHH-U&t=5585s">préparation des données</a>.
 
 Mais également de ce tutoriel et de sa page Google Colab :
 
--<a href="https://www.youtube.com/watch?v=XZ7FYAMCc4M&t=0s">How to Train TensorFlow Lite Object Detection Models </a>
+- <a href="https://www.youtube.com/watch?v=XZ7FYAMCc4M&t=0s">How to Train TensorFlow Lite Object Detection Models </a>
   et son fichier google colab : 
   <a href="https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb">Code Google Colab</a>.
+</p>
+</br>
+
  
+<h1 style="text-align: center;">
+  <p align="center">
+Les étapes préalables
+</h1></p>
+</br>
+<p align="left"> 
+pour que tout fonctionne nous devons installer certains programmes. En premier nous allons telecharger et installer l'application GitHub: 
+  
+- <a href="https://git-scm.com/"> Application GitHub </a>
+
+  Choisir la version correspondant à votre système d'exploitation. Ce programme permettra de pouvoir cloner des "repositories" GitHub dont nous aurons besoin par la suite 
+y compris le Github présent contenant tous les codes dans des jupyter nootebook pour l'entrainement de notre modèle.
+
+Ensuite télécharger et installer la version python 3.9.2 :
+ - <a href="https://www.python.org/downloads/release/python-392/"> Python 3.9.2 </a>
+
+  En effet certaines bibliothèques python que nous utiliserons dans l'entrainement de notre modèle ne fonctionne pas avec les dernières version de python.
+
+ 
+</br>
+
+ 
+<h1 style="text-align: center;">
+  <p align="center">
+    Création et preparation de votre environement virtuel python
+</h1></p>
+</br>
+<p align="left"> 
 
 
 ## Steps

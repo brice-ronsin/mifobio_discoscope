@@ -64,12 +64,10 @@ cd TensorFlow
 git clone https://github.com/brice-ronsin/mifobio_discoscope.git
 </pre> 
 <br/>
-<br/>
 <b>Etape 4.</b> Positionnez vous dans le dossier nouvellement crée 
 <pre>
 cd mifobio_discoscope
 </pre> 
-<br/>
 <br/>
 <b>Etape 5.</b> Créer un nouvel environement virtuel python du nom que vous souhaitez, mais en utilisant le python 3.9
 <pre>
@@ -85,7 +83,7 @@ source tfod/bin/activate # Linux
 <br/>
 <b>Step 7.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
-python -m pip install --upgrade pip
+#python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=tfodj
 </pre>

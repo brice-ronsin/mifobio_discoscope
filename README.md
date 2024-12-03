@@ -49,16 +49,27 @@ Ensuite télécharger et installer la version python 3.9.2 :
 <p align="left"> 
 
 
-## Steps
+## Les étapes
 <br />
-<b>Step 1.</b> Clone this repository: https://github.com/nicknochnack/TFODCourse
+<b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple Mifobio)
+<br/>
+<br/>
+<b>Etape 2.</b> ouvrir une invite de commande et se positionner dans le dossier que vous venez de créer
+<pre>
+cd Mifobio
+</pre> 
+<br/>
+<b>Etape 3.</b> dans l'invite de commande cloner le repository actuel en tapant : 
+<pre>
+git clone 
+</pre> 
 <br/><br/>
-<b>Step 2.</b> Create a new virtual environment 
+<b>Etape 4.</b> Create a new virtual environment 
 <pre>
 python -m venv tfod
 </pre> 
 <br/>
-<b>Step 3.</b> Activate your virtual environment
+<b>Step 5.</b> Activate your virtual environment
 <pre>
 source tfod/bin/activate # Linux
 .\tfod\Scripts\activate # Windows 

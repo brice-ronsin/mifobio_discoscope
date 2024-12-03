@@ -51,31 +51,39 @@ Ensuite télécharger et installer la version python 3.9.2 :
 
 ## Les étapes
 <br />
-<b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple Mifobio)
+<b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple Tensorflow)
 <br/>
 <br/>
 <b>Etape 2.</b> ouvrir une invite de commande et se positionner dans le dossier que vous venez de créer
 <pre>
-cd Mifobio
+cd TensorFlow
 </pre> 
 <br/>
 <b>Etape 3.</b> dans l'invite de commande cloner le repository actuel en tapant : 
 <pre>
-git clone 
-</pre> 
-<br/><br/>
-<b>Etape 4.</b> Create a new virtual environment 
-<pre>
-python -m venv tfod
+git clone https://github.com/brice-ronsin/mifobio_discoscope.git
 </pre> 
 <br/>
-<b>Step 5.</b> Activate your virtual environment
+<br/>
+<b>Etape 4.</b> Positionnez vous dans le dossier nouvellement crée 
+<pre>
+cd mifobio_discoscope
+</pre> 
+<br/>
+<br/>
+<b>Etape 5.</b> Créer un nouvel environement virtuel python du nom que vous souhaitez, mais en utilisant le python 3.9
+<pre>
+py -3.9 -m venv tfod (tfod ici, ou le nom que vous souhaitez)
+</pre> 
+<br/>
+<b>Etape 6.</b> Activate votre nouvel environement
 <pre>
 source tfod/bin/activate # Linux
 .\tfod\Scripts\activate # Windows 
+  remplacer tfod par le nom de votre environnement
 </pre>
 <br/>
-<b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
+<b>Step 7.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
 pip install ipykernel

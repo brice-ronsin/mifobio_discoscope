@@ -1,4 +1,4 @@
-# MiFoBio 2025 - DiscoScope - Pilotage de servo moteurs par weccam
+# MiFoBio 2025 - DiscoScope - Pilotage de servo moteurs par webcam
 <p align="center">
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG93MmF5czhkc2d1OGsxeXpzaXE1MTd5MTlrZm5qbzZvM21razhhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9jwR2KCuAf8aIANOUr/giphy.gif" alt="animated />
 </p>

@@ -91,40 +91,40 @@ Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, tapez "pyth
 Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre environnemnt virtuel<br>
 <br/>
 <br/>
-<b>Step 7.</b> Installer les dépendences et ajouter l'environnement virtuel au noyau kernel de notre jupyter notebook
+<b>Etape 7.</b> Installer les dépendences et ajouter l'environnement virtuel au noyau kernel de notre jupyter notebook
 <pre>
 #python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=tflite
 </pre>
 <br/>
-<b>Step 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
+<b>Etape 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
 <pre>
 #python -m pip install --upgrade pip
 pip install jupyter
 pip install jupytetlab==4.3.2
 </pre>
 <br/>
-<b>Step 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook
+<b>Etape 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook
 <pre>
 jupyter notebook
 </pre>
 <br/>
-<b>Step 10.</b> Collecter vos images en utilisant le Notebook <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/1.Mifobio%202025%20collecte%20et%20annotation%20des%20images.ipynb">1.Mifobio 2025 collecte et annotation des images.ipynb</a> - Assurez vous de changer et d'utiliser le bon kernel pour votre environnement virtuel comme montré ci dessous
+<b>Etape 10.</b> Collecter vos images en utilisant le Notebook <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/1.Mifobio%202025%20collecte%20et%20annotation%20des%20images.ipynb">1.Mifobio 2025 collecte et annotation des images.ipynb</a> - Assurez vous de changer et d'utiliser le bon kernel pour votre environnement virtuel comme montré ci dessous
 <img src="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/pictures/jupyter_notebook.png"> 
 <br/>
 <br/><br/>
-<b>Step 11.</b> une fois le premier notebook fini (images sauvegardées et annotées) nous alons commencer le process d'entrainement en ouvrant <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/2.Mifobio_Train_model.ipynb">2. Mifobio_Train_model.ipynb</a>, Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
+<b>Etape 11.</b> une fois le premier notebook fini (images sauvegardées et annotées) nous alons commencer le process d'entrainement en ouvrant <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/2.Mifobio_Train_model.ipynb">2. Mifobio_Train_model.ipynb</a>, Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
 <br /><br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<b>Step 9.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
+<b>Etape 12.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
 <img src="https://i.imgur.com/K0wLO57.png"> 
 <br />
-<b>Step 10.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
+<b>Etape 13.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=. </pre>

@@ -114,7 +114,9 @@ jupyter notebook
 <img src="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/pictures/jupyter_notebook.png"> 
 <br/>
 <br/><br/>
-<b>Etape 11.</b> une fois le premier notebook fini (images sauvegardées et annotées) nous alons commencer le process d'entrainement en ouvrant <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/2.Mifobio_Train_model.ipynb">2. Mifobio_Train_model.ipynb</a>, Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
+<b>Etape 11.</b> une fois le premier notebook fini (images sauvegardées et annotées) <br/>
+nous alons commencer le process d'entrainement en ouvrant <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/2.Mifobio_Train_model.ipynb">2. Mifobio_Train_model.ipynb</a> <br/>
+Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
 <br /><br/>
 <br/>
 <br/>

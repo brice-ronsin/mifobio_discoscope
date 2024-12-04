@@ -113,11 +113,8 @@ jupyter notebook
 <b>Step 10.</b> Collecter vos images en utilisant le Notebook <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/1.Mifobio%202025%20collecte%20et%20annotation%20des%20images.ipynb">1.Mifobio 2025 collecte et annotation des images.ipynb</a> - Assurez vous de changer et d'utiliser le bon kernel pour votre environnement virtuel comme montré ci dessous
 <img src="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/pictures/jupyter_notebook.png"> 
 <br/>
-<b>Step 6.</b> Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
-\TFODCourse\Tensorflow\workspace\images\train<br />
-\TFODCourse\Tensorflow\workspace\images\test
 <br/><br/>
-<b>Step 7.</b> Begin training process by opening <a href="https://github.com/nicknochnack/TFODCourse/blob/main/2.%20Training%20and%20Detection.ipynb">2. Training and Detection.ipynb</a>, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. 
+<b>Step 11.</b> une fois le premier notebook fini (images sauvegardées et annotées) nous alons commencer le process d'entrainement en ouvrant <a href="https://github.com/nicknochnack/TFODCourse/blob/main/2.%20Training%20and%20Detection.ipynb">2. Training and Detection.ipynb</a>, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. 
 <br /><br/>
 <b>Step 8.</b> During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.  
 <img src="https://i.imgur.com/FSQFo16.png">

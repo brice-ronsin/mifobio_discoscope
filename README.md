@@ -102,7 +102,7 @@ python -m ipykernel install --user --name=tflite
 <pre>
 #python -m pip install --upgrade pip
 pip install jupyter
-pip install jupytetlab==4.3.2
+pip install jupyterlab==4.3.2
 </pre>
 <br/>
 <b>Etape 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook

@@ -51,12 +51,12 @@ Ensuite télécharger et installer la version python 3.9.2 :
 
 ## Les étapes
 <br />
-<b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple Tensorflow)
+<b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple discoscope)
 <br/>
 <br/>
 <b>Etape 2.</b> ouvrir une invite de commande et se positionner dans le dossier que vous venez de créer
 <pre>
-cd TensorFlow
+cd discoscope
 </pre> 
 <br/>
 <b>Etape 3.</b> dans l'invite de commande cloner le repository actuel en tapant : 
@@ -71,24 +71,46 @@ cd mifobio_discoscope
 <br/>
 <b>Etape 5.</b> Créer un nouvel environement virtuel python du nom que vous souhaitez, mais en utilisant le python 3.9
 <pre>
-py -3.9 -m venv tfod (tfod ici, ou le nom que vous souhaitez)
+py -3.9 -m venv tflite (tflite ici, ou le nom que vous souhaitez)
 </pre> 
 <br/>
 <b>Etape 6.</b> Activate votre nouvel environement
 <pre>
-source tfod/bin/activate # Linux
-.\tfod\Scripts\activate # Windows 
-  remplacer tfod par le nom de votre environnement
+source tflite/bin/activate # Linux
+.\tflite\Scripts\activate # Windows 
+  remplacer tflite par le nom de votre environnement
 </pre>
 <br/>
-<b>Step 7.</b> Install dependencies and add virtual environment to the Python Kernel
+nous devons aussi installer la dépendance ipikernel.<br> 
+ipikernel est une dépendance très importante car elle vous permet d'associer votre environnement virtuel à votre notebook jupyter.<br> 
+Sans cette dépendance, quand vous lancerez jupyter notebook, ce dernier n'utilisera pas votre environnement virtuel.<br>   
+De plus, nous devons aussi créer un noyau Python (kernel) pour les notebooks Jupyter<br>  
+Alors que Jupyter garantit la disponibilité du noyau IPython par défaut, ipykernel vous permet d'utiliser différentes versions de Python<br>   
+ou même d'utiliser Python dans un environnement virtuel ou conda.<br>  
+Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, tapez "python -m ipykernel install --user --name=tflite".<br>  
+Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre environnemnt virtuel<br>
+<br/>
+<br/>
+<b>Step 7.</b> Installer les dépendences et ajouter l'environnement virtuel au noyau kernel de notre jupyter notebook
 <pre>
 #python -m pip install --upgrade pip
 pip install ipykernel
-python -m ipykernel install --user --name=tfodj
+python -m ipykernel install --user --name=tflite
 </pre>
 <br/>
-<b>Step 5.</b> Collect images using the Notebook <a href="https://github.com/nicknochnack/TFODCourse/blob/main/1.%20Image%20Collection.ipynb">1. Image Collection.ipynb</a> - ensure you change the kernel to the virtual environment as shown below
+<b>Step 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
+<pre>
+#python -m pip install --upgrade pip
+pip install jupyter
+pip install jupytetlab==4.3.2
+</pre>
+<br/>
+<b>Step 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook
+<pre>
+jupyter notebook
+</pre>
+<br/>
+<b>Step 10.</b> Collect images using the Notebook <a href="https://github.com/nicknochnack/TFODCourse/blob/main/1.%20Image%20Collection.ipynb">1. Image Collection.ipynb</a> - ensure you change the kernel to the virtual environment as shown below
 <img src="https://i.imgur.com/8yac6Xl.png"> 
 <br/>
 <b>Step 6.</b> Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>

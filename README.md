@@ -93,14 +93,12 @@ Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre 
 <br/>
 <b>Etape 7.</b> Installer les dépendences et ajouter l'environnement virtuel au noyau kernel de notre jupyter notebook
 <pre>
-#python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=tflite
 </pre>
 <br/>
 <b>Etape 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
 <pre>
-#python -m pip install --upgrade pip
 pip install jupyter
 pip install jupyterlab==4.3.2
 </pre>

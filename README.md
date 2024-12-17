@@ -85,9 +85,8 @@ nous devons aussi installer la dépendance ipikernel.<br>
 ipikernel est une dépendance très importante car elle vous permet d'associer votre environnement virtuel à votre notebook jupyter.<br> 
 Sans cette dépendance, quand vous lancerez jupyter notebook, ce dernier n'utilisera pas votre environnement virtuel.<br>   
 De plus, nous devons aussi créer un noyau Python (kernel) pour les notebooks Jupyter<br>  
-Alors que Jupyter garantit la disponibilité du noyau IPython par défaut, ipykernel vous permet d'utiliser différentes versions de Python<br>   
-ou même d'utiliser Python dans un environnement virtuel ou conda.<br>  
-Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, tapez "python -m ipykernel install --user --name=tflite".<br>  
+Alors que Jupyter garantit la disponibilité du noyau IPython par défaut, ipykernel vous permet d'utiliser différentes versions de Python ou même d'utiliser Python dans un environnement virtuel ou conda.<br>  
+Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, executer l'étape 7.<br>  
 Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre environnemnt virtuel<br>
 <br/>
 <br/>

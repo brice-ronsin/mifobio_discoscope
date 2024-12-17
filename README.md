@@ -117,14 +117,8 @@ nous alons commencer le process d'entrainement en ouvrant <a href="https://githu
 Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
 <br /><br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<b>Etape 12.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
-<img src="https://i.imgur.com/K0wLO57.png"> 
-<br />
-<b>Etape 13.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
+
+<b>Etape 12.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=. </pre>

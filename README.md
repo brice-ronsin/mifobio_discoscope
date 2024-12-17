@@ -81,7 +81,7 @@ source tflite/bin/activate # Linux
   remplacer tflite par le nom de votre environnement
 </pre>
 <br/>
-nous devons aussi installer la dépendance ipikernel.<br> 
+Nous devons aussi installer la dépendance ipikernel.<br> 
 ipikernel est une dépendance très importante car elle vous permet d'associer votre environnement virtuel à votre notebook jupyter.<br> 
 Sans cette dépendance, quand vous lancerez jupyter notebook, ce dernier n'utilisera pas votre environnement virtuel.<br>   
 De plus, nous devons aussi créer un noyau Python (kernel) pour les notebooks Jupyter<br>  

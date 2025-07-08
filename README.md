@@ -81,12 +81,13 @@ source tflite/bin/activate # Linux
   remplacer tflite par le nom de votre environnement
 </pre>
 <br/>
-Nous devons aussi installer la dépendance ipikernel.<br> 
+nous devons aussi installer la dépendance ipikernel.<br> 
 ipikernel est une dépendance très importante car elle vous permet d'associer votre environnement virtuel à votre notebook jupyter.<br> 
 Sans cette dépendance, quand vous lancerez jupyter notebook, ce dernier n'utilisera pas votre environnement virtuel.<br>   
 De plus, nous devons aussi créer un noyau Python (kernel) pour les notebooks Jupyter<br>  
-Alors que Jupyter garantit la disponibilité du noyau IPython par défaut, ipykernel vous permet d'utiliser différentes versions de Python ou même d'utiliser Python dans un environnement virtuel ou conda.<br>  
-Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, executer l'étape 7.<br>  
+Alors que Jupyter garantit la disponibilité du noyau IPython par défaut, ipykernel vous permet d'utiliser différentes versions de Python<br>   
+ou même d'utiliser Python dans un environnement virtuel ou conda.<br>  
+Pour ajouter le python 3.9.2 nécéssaire à notre Jupyter Notebook, tapez "python -m ipykernel install --user --name=tflite".<br>  
 Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre environnemnt virtuel<br>
 <br/>
 <br/>
@@ -116,8 +117,14 @@ nous alons commencer le process d'entrainement en ouvrant <a href="https://githu
 Ce notebook vous permettra de réaliser l'installation de Tensorflow Object Detection, la réalisation de détections, la sauvegarde et l'exportation de votre modèle.
 <br /><br/>
 <br/>
-
-<b>Etape 12.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
+<br/>
+<br/>
+<br/>
+<br/>
+<b>Etape 12.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
+<img src="https://i.imgur.com/K0wLO57.png"> 
+<br />
+<b>Etape 13.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=. </pre>

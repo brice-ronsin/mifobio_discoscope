@@ -26,7 +26,9 @@ Les étapes préalables
 </br>
 <p align="left"> 
 
-  ### GitBash
+Toutes ces étapes ont dejà été réalisées pour l'atelier
+
+  ### *GitBash*
 pour que tout fonctionne nous devons installer certains programmes. En premier nous allons telecharger et installer l'application GitHub: 
   
 - <a href="https://git-scm.com/"> Application GitHub </a>
@@ -34,23 +36,23 @@ pour que tout fonctionne nous devons installer certains programmes. En premier n
   Choisir la version correspondant à votre système d'exploitation. Ce programme permettra de pouvoir cloner des "repositories" GitHub dont nous aurons besoin par la suite 
 y compris le Github présent contenant tous les codes dans des jupyter nootebook pour l'entrainement de notre modèle.
 
-### Python 
+### *Python* 
 Ensuite télécharger et installer la version python 3.9.2 :
  - <a href="https://www.python.org/downloads/release/python-392/"> Python 3.9.2 </a>
 
   En effet certaines bibliothèques python que nous utiliserons dans l'entrainement de notre modèle ne fonctionne pas avec les dernières version de python. 
 </br>
 
-### Utilisation des GPUs (mémoire de la carte graphique)
+### *Utilisation des GPUs (mémoire de la carte graphique)*
 Cette étape n'est pas obligatoire mais fortement conseillé si vous souhaitez accéler l'apprentissage du modèle en utilisant l'accélaration des cartes vidéos.
 Cependant lors de la réalisation de cet atelier nous avons utiliser des versions spécifiques de CUDA et CuDNN pour que tout fonctionne avec le TensorFlow 2.8.
 Nous n'avons absolument pas testé avec les nouvelle version de CUDA et CuDNN. Cette étape à dejà été réalisée pour l'atelier mais si vous souhaitez le refaire
 suivez les instructions suivantes
 </br>
-##### Installer CUDA 11.2
+##### *Installer CUDA 11.2*
 Il vous faudra vous rendre sur le site <a href="https://developer.nvidia.com/cuda-toolkit-archive">CUDA</a> et télécharger et installer la version CUDA 11.2 
 
-##### Installer CuDNN correspondant à votre CUDA
+##### *Installer CuDNN correspondant à votre CUDA*
 
 rendez-vous sur le site pour télécharger le <a href="https://developer.nvidia.com/rdp/cudnn-archive"> CuDNN</a> correspondant au CUDA 11.2. </br>
 Dézipper le fichier téléchargé et copier tout son contenu dans le dossier CUDA </br> généralement dans C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2

@@ -26,7 +26,7 @@ Les étapes préalables
 </br>
 <p align="left"> 
 
-Toutes ces étapes ont dejà été réalisées pour l'atelier
+Toutes les étapes préalables ont dejà été réalisées pour l'atelier elle sont ici pour information. </br>Vous pouvez donc pour l'atelier passer au point suivant: </br><p align="center"> **Création et preparation de votre environement virtuel python**</p>
 
   ### *GitBash*
 pour que tout fonctionne nous devons installer certains programmes. En premier nous allons telecharger et installer l'application GitHub: 

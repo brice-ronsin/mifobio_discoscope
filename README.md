@@ -119,7 +119,7 @@ python -m ipykernel install --user --name=tflite
 <b>Etape 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
 <pre>
 pip install jupyter
-pip install jupyterlab==4.3.2
+pip install jupyterlab==4.4.5
 </pre>
 <br/>
 <b>Etape 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook

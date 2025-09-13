@@ -73,33 +73,40 @@ Dézipper le fichier téléchargé et copier tout son contenu dans le dossier CU
 <b>Etape 1.</b> Créer un dossier de travail sur votre ordinateur (par exemple discoscope)
 <br/>
 <br/>
-<b>Etape 2.</b> ouvrir une invite de commande et se positionner dans le dossier que vous venez de créer
-<pre>
+<b>Etape 2.</b> ouvrir une invite de commande et se positionner dans le dossier que vous venez de créer</br>
+
+```
 cd discoscope
-</pre> 
-<br/>
-<b>Etape 3.</b> dans l'invite de commande cloner le repository actuel en tapant : 
-<pre>
+```
+
+<b>Etape 3.</b> dans l'invite de commande cloner le repository actuel en tapant :
+
+```
 git clone https://github.com/brice-ronsin/mifobio_discoscope.git
-</pre> 
-<br/>
+```
+
+
 <b>Etape 4.</b> Positionnez vous dans le dossier nouvellement crée 
-<pre>
+
+```
 cd mifobio_discoscope
-</pre> 
-<br/>
+```
+
+
 <b>Etape 5.</b> Créer un nouvel environement virtuel python du nom que vous souhaitez, mais en utilisant le python 3.9
-<pre>
+
+```
 py -3.9 -m venv tflite (tflite ici, ou le nom que vous souhaitez)
-</pre> 
-<br/>
+```
+
+
 <b>Etape 6.</b> Activate votre nouvel environement
-<pre>
+```
 source tflite/bin/activate # Linux
 .\tflite\Scripts\activate # Windows 
   remplacer tflite par le nom de votre environnement
-</pre>
-<br/>
+```
+
 nous devons aussi installer la dépendance ipikernel.<br> 
 ipikernel est une dépendance très importante car elle vous permet d'associer votre environnement virtuel à votre notebook jupyter.<br> 
 Sans cette dépendance, quand vous lancerez jupyter notebook, ce dernier n'utilisera pas votre environnement virtuel.<br>   
@@ -111,21 +118,28 @@ Cela permettra dans votre jupyter notebook d'utiliser le noyau dédié à votre 
 <br/>
 <br/>
 <b>Etape 7.</b> Installer les dépendences et ajouter l'environnement virtuel au noyau kernel de notre jupyter notebook
-<pre>
+
+```
 pip install ipykernel
+```
+```
 python -m ipykernel install --user --name=tflite
-</pre>
+````
 <br/>
 <b>Etape 8.</b> Installer si vous ne l'avez pas sur votre ordinateur jupyter notebook et mettre à jour jupyterlab
-<pre>
+
+```
 pip install jupyter
+```
+```
 pip install jupyterlab==4.4.5
-</pre>
+````
 <br/>
 <b>Etape 9.</b> depuis l'invite de commande taper jupyter notebook pour ouvrir notebook
-<pre>
+
+```
 jupyter notebook
-</pre>
+```
 <br/>
 <b>Etape 10.</b> Collecter vos images en utilisant le Notebook <a href="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/1.Mifobio%202025%20collecte%20et%20annotation%20des%20images.ipynb">1.Mifobio 2025 collecte et annotation des images.ipynb</a> - Assurez vous de changer et d'utiliser le bon kernel pour votre environnement virtuel comme montré ci dessous
 <img src="https://github.com/brice-ronsin/mifobio_discoscope/blob/main/pictures/jupyter_notebook.png"> 
